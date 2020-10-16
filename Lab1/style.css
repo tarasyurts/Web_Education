@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.title{
+	text-align: center;
+}
+
+.card{
+	height: 100%;
+	background-color:#999999;
+	border: 3px solid #131313;
+}
+
+.card-title-wrapper, .card-descr{
+	margin: 0;
+}
+
+.card-title-wrapper{
+	text-align: right;
+}
+
+.card-title{
+	display: inline-block;
+	padding: 8px 24px;
+	border-left: 3px solid #131313;
+	border-bottom: 3px solid #131313;
+}
+
+.card-title--pink{
+	color: #131313;
+	background-color: #d59898;
+}
+
+.card-title--red{
+	color: #fff;
+	background-color: #c14543;
+}
+
+.card-title--yellow{
+	color: #fff;
+	background-color: #e6ba6a;
+}
+
+.card-descr{
+	padding: 16px;
+}
+
+/* Put some basic styles here */
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+[class*="col-"] {
+	box-sizing: border-box;
+	margin-bottom: 16px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+/* Large devices */
+@media (min-width: 1200px) {
+
+.col-lg-1 {
+	width: 8.33%;
+}
+.col-lg-2 {
+	width: 16.66%;
+}
+.col-lg-3 {
+	width: 25%;
+}
+.col-lg-4 {
+	width: 33.33%;
+}
+.col-lg-5 {
+	width: 41.66%;
+}
+.col-lg-6 {
+	width: 50%;
+}
+.col-lg-7 {
+	width: 58.33%;
+}
+.col-lg-8 {
+	width: 66.66%;
+}
+.col-lg-9 {
+	width: 74.99%;
+}
+.col-lg-10 {
+	width: 83.33%;
+}
+.col-lg-11 {
+	width: 91.66%;
+}
+.col-lg-12 {
+	width: 100%;
+}
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.col-md-1 {
+	width: 8.33%;
+}
+.col-md-2 {
+	width: 16.66%;
+}
+.col-md-3 {
+	width: 25%;
+}
+.col-md-4 {
+	width: 33.33%;
+}
+.col-md-5 {
+	width: 41.66%;
+}
+.col-md-6 {
+	width: 50%;
+}
+.col-md-7 {
+	width: 58.33%;
+}
+.col-md-8 {
+	width: 66.66%;
+}
+.col-md-9 {
+	width: 74.99%;
+}
+.col-md-10 {
+	width: 83.33%;
+}
+.col-md-11 {
+	width: 91.66%;
+}
+.col-md-12 {
+	width: 100%;
+}
+}
