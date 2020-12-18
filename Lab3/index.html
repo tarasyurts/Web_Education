@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Yurts Lab 3</title>
+</head>
+<body ng-app="myModule">
+
+	<div class="content-wrapper">
+		<div class="content">
+			<h2 class="title">Yurts Taras. Lab 3</h2>
+			<div ng-controller="myController">
+				<input type="text" ng-model="userInput">
+				<button class="ask-btn" ng-click="onClickAskButton()">Чи не забагато?</button>
+				<p class="answer">{{answer}}</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

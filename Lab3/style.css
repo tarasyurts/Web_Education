@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+body {
+	font-family: 'Play', sans-serif;
+}
+
+.content-wrapper{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content{
+	display: inline-block;
+	padding: 15px 25px;
+	border-radius: 20px;
+	background-color: rgb(238, 241, 241);
+}
+
+.ask-btn{
+	padding: 10px 20px;
+	margin-left: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 12px;
+	border-radius: 20px;
+	background:none;
+	outline: none;
+	border:none;
+	color:#fff;
+	background-color: rgb(93, 117, 221);
+}
+
+.title, .answer{
+	text-align: center;
+}
+
+.title{
+	color: rgb(63, 86, 189);
+}
