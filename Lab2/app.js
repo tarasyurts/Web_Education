@@ -15,6 +15,11 @@ calcBtn.addEventListener("click", function () {
     return;
   }
 
+  if(sideFirst==sideSecond){
+    resultTag.innerHTML = 'Сторони не можуть бути рівними';
+    return;
+  }
+
   if(sideFirst>sideSecond){
       [sideFirst, sideSecond] = [sideSecond, sideFirst];
   }
