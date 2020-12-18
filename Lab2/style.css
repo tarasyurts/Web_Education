@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+body {
+	font-family: 'Play', sans-serif;
+}
+/* =========MARGINS======== */
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.ml-100 {
+  margin-left: 100px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mr-100 {
+  margin-right: 100px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+/* =========MARGINS======== */
+
+
+/* =========SECTIONS======== */
+
+.math-section {
+	padding: 30px;
+	/* border-radius: 15px; */
+	background: linear-gradient(to right, #1b2c36, #325263);
+	/* box-shadow: 0px 3px 28px 5px rgb(58, 196, 214); */
+}
+
+.section-subtitle{
+	margin-top: 25px;
+	font-weight: 600;
+	font-size: 20px;
+	color: rgb(161, 173, 173);
+	text-transform: uppercase;
+}
+
+.section-title {
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 30px;
+	color: azure;
+	text-transform: uppercase;
+}
+
+.separator{
+	margin-top: 30px;
+	width: 300px;
+	border-width: 5px;
+	border-color: rgb(161, 173, 173);
+}
+
+.section-description {
+	color: gray;
+	font-size: 20px;
+}
+
+.section-items{
+	font-size: 20px;
+}
+
+.section-items input {
+	width: 50px;
+	border-radius: 8px;
+}
+
+
+.triangle-section {
+	height: 72vh;
+	background-color: #000;
+}
+
+.triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 300px 300px 300px;
+	border-color: transparent transparent #455b61 transparent;
+	transform: translateY(-30%);
+}
