@@ -7,7 +7,7 @@ html,body{
 body {
 	font-family: 'Play', sans-serif;
 	margin: 0;
-	background-color: #dddddd;
+	background-color: rgb(237, 240, 241);
 }
 
 
@@ -24,11 +24,42 @@ body {
 	min-height: 270px;
 	min-width: 220px;
 	padding: 20px 10px;
-	background-color: #f1f1f1;
+	background-color: rgb(240, 246, 247);
+    
+	/* background-color: #f1f1f1; */
+}
+
+.card--blue-shadow{
+	
+	-webkit-box-shadow: 17px 15px 54px 0px rgb(175 181 255);
+    -moz-box-shadow: 17px 15px 54px 0px rgb(175 181 255);
+    box-shadow: 17px 15px 54px 0px rgb(175 181 255);
+}
+
+.card--pink-shadow{
+	
+	-webkit-box-shadow: 17px 15px 54px 0px rgbrgb(255 169 169);
+    -moz-box-shadow: 17px 15px 54px 0px rgb(255 169 169);
+    box-shadow: 17px 15px 54px 0px rgb(255 169 169);
+}
+
+.buy-btn{
+	padding: 10px 20px;
+    margin-left: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: rgb(93, 117, 221);
 }
 
 .shop-item-row{
 	padding-bottom: 10px;
 	display: flex;
-	justify-content: space-between
+	justify-content: space-between;
+	align-items: center;
 }
