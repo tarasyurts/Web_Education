@@ -12,7 +12,7 @@
 
 	<div class="cards">
 		<div class='card card--blue-shadow' ng-controller='buyItemController as buyCntr'>
-			<h2>Купити</h2>
+			<h2 class="card-title" >Купити</h2>
 			<div ng-if="buyCntr.shopItemsToBuy.length == 0">
 				Все куплено
 			</div>
@@ -26,7 +26,7 @@
 		</div>
 
 		<div class='card card--pink-shadow' ng-controller='boughtItemController as boughtCntr'>
-			<h2>Куплено</h2>
+			<h2 class="card-title" >Куплено</h2>
 			<div ng-if="boughtCntr.boughtShopItems.length == 0">
 				Ще нічого не куплено
 			</div>
