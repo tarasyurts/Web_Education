@@ -22,18 +22,17 @@ body {
 .card{
 	border-radius: 20px;
 	min-height: 270px;
-	min-width: 220px;
-	padding: 20px 10px;
+	min-width: 240px;
+	padding: 20px 20px;
 	background-color: rgb(240, 246, 247);
     
 	/* background-color: #f1f1f1; */
 }
 
 .card--blue-shadow{
-	
-	-webkit-box-shadow: 17px 15px 54px 0px rgb(175 181 255);
-    -moz-box-shadow: 17px 15px 54px 0px rgb(175 181 255);
-    box-shadow: 17px 15px 54px 0px rgb(175 181 255);
+	-webkit-box-shadow: 17px 15px 54px 0px rgb(173 179 255);
+    -moz-box-shadow: 17px 15px 54px 0px rgb(173 179 255);
+    box-shadow: 17px 15px 54px 0px rgb(173 179 255);
 }
 
 .card--pink-shadow{
