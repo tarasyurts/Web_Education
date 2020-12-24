@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html">
+
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Yurts Lab 4</title>
+</head>
+
+<body ng-app="myModule">
+
+	<div class="cards">
+		<div class='card' ng-controller='buyItemController as buyCntr'>
+			<h2>Купити</h2>
+			<div ng-if="buyCntr.shopItemsToBuy.length == 0">
+				Все куплено
+			</div>
+			<div ng-if="buyCntr.shopItemsToBuy.length > 0">
+				<div class="shop-item-row" ng-repeat="item in buyCntr.shopItemsToBuy">
+					<span>{{item.name}}</span>
+					<span>{{item.quantity}}</span>
+					<button ng-click="buyCntr.addItemToBought($index)">Купити</button>
+				</div>
+			</div>
+		</div>
+
+		<div class='card' ng-controller='boughtItemController as boughtCntr'>
+			<h2>Куплено</h2>
+			<div ng-if="boughtCntr.boughtShopItems.length == 0">
+				Ще нічого не куплено
+			</div>
+			<div ng-if="boughtCntr.boughtShopItems.length > 0">
+				<div class="shop-item-row" ng-repeat="item in boughtCntr.boughtShopItems">
+					<span>Куплено</span> <span>{{item.quantity}}</span> <span></span>{{item.name}}
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
