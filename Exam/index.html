@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="ExamApp">
+<head>
+	<meta charset="utf-8">
+	<title>Yurts Taras | Exam</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="card-wrapper">
+		<div class="card card--pink-shadow">
+
+		<h2 class="card-title">Каталог автомобілів</h2>
+		<div ng-controller="CarManagementController as carMngCntr">
+
+				<div ng-repeat="car in carMngCntr.cars">
+					<div ng-show="car.displayed" class="item-row">
+						<span>Наявно {{car.quantity}} автомобілів марки {{car.mark}}</span>
+						<div class="btns">
+							<button class="btn delete-btn" ng-click="carMngCntr.deleteByIndex($index)">Видалити</button>
+							<button class="btn hide-btn" ng-click="carMngCntr.hideByIndex($index)">Приховати</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="angular.min.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
